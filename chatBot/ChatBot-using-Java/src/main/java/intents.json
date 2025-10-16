@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "what's up"],
+      "responses": ["Hey there! 👋", "Hello! How can I help you today?", "Hi, nice to see you 😊"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye", "take care"],
+      "responses": ["Goodbye! 👋 Have a great day!", "See you soon!", "Bye! Come back anytime 😊"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx"],
+      "responses": ["You're welcome!", "Glad I could help 😄", "Anytime!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["who are you", "what are you", "what can you do"],
+      "responses": ["I'm a Java-based chatbot built by Rupanshi Soni 💻", "I'm your smart assistant powered by Java! 🤖"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who created you", "who made you", "your developer"],
+      "responses": ["I was developed by Rupanshi Soni 👩‍💻", "My creator is Rupanshi Soni from Gyan Ganga College of Technology! 🚀"]
+    },
+    {
+      "tag": "mood",
+      "patterns": ["how are you", "how are you doing", "what's up"],
+      "responses": ["I'm great! Thanks for asking 😄", "Doing awesome — ready to chat! 💬"]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivate me", "inspire me", "i feel low", "i am sad"],
+      "responses": [
+        "Remember: Every expert was once a beginner 💪",
+        "Keep going, your hard work will pay off soon 🌟",
+        "You’re stronger than you think. Keep moving forward! 🚀"
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["how to study better", "study tips", "focus while studying"],
+      "responses": [
+        "Try the Pomodoro technique — study 25 mins, rest 5 mins ⏱️",
+        "Keep your phone away and focus on one topic at a time 📘",
+        "Make short notes and revise them daily — consistency is key 💡"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": ["what is programming", "explain coding", "what is code"],
+      "responses": [
+        "Programming is the process of creating instructions for computers to perform tasks 🖥️",
+        "Coding means communicating with computers in their language to solve problems 💻"
+      ]
+    },
+    {
+      "tag": "java",
+      "patterns": ["what is java", "explain java", "java language"],
+      "responses": [
+        "Java is a high-level, object-oriented programming language used to build cross-platform applications ☕",
+        "Java is known for its portability — write once, run anywhere 🌍"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": ["what is python", "explain python"],
+      "responses": [
+        "Python is a high-level programming language known for simplicity and readability 🐍",
+        "Python is great for AI, data science, and automation tasks! 🤖"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather", "weather in", "temperature in"],
+      "responses": ["I'm not connected to the internet 🌤️, but you can check Google Weather for the latest updates!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "funny joke"],
+      "responses": [
+        "Why do programmers hate nature? — It has too many bugs! 🐛",
+        "Why did the Java developer wear glasses? — Because they don’t see sharp! 🤓",
+        "I told my computer I needed a break... it said 'No problem, I’ll go to sleep!' 😂"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["placement tips", "how to prepare for placements", "interview preparation"],
+      "responses": [
+        "Focus on DSA, Java basics, and 1-2 solid projects 💼",
+        "Practice LeetCode and review your CS fundamentals regularly!",
+        "Make sure your resume highlights your best projects 🌟"
+      ]
+    },
+    {
+      "tag": "college",
+      "patterns": ["tell me about your college", "where do you study"],
+      "responses": [
+        "I was created at Gyan Ganga College of Technology, Jabalpur 🎓",
+        "Proudly developed under Rupanshi Soni’s Java project initiative! 🚀"
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": ["career advice", "how to get a good job"],
+      "responses": [
+        "Start with strong fundamentals — DSA, OOPs, and core subjects 💻",
+        "Build projects that show your skills and passion 💡",
+        "Network on LinkedIn and apply early for internships 🌐"
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["what is ai", "explain artificial intelligence"],
+      "responses": [
+        "AI stands for Artificial Intelligence — machines that can think and learn 🤖",
+        "AI is used in chatbots, self-driving cars, and recommendation systems 🚗"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["you helped me", "thank you so much", "that was helpful"],
+      "responses": ["I'm glad I could help! 😊", "Anytime! I'm here whenever you need me 💬"]
+    },
+    {
+      "tag": "default",
+      "patterns": [""],
+      "responses": ["I'm sorry, I didn't understand that. Could you rephrase? 🤔"]
+    }
+  ]
+}
